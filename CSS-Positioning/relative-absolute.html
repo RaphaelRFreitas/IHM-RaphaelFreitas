@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        .parent {
+            width: 700px;
+            height: 500px;
+            border: 6px solid purple;
+            position: relative;
+        }
+
+        .child {
+            width: 150px;
+            height: 150px;
+            background: red;
+            position: absolute;
+        }
+
+        .child1 {
+            top: 100px;
+            left: 10px;
+        }
+
+        .child2 {
+            bottom: 100px;
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <h1>Sou a Parent</h1>
+        <div class="child child1">
+            <h2>Sou a Child1</h2>
+        </div>
+        <div class="child child2">
+            <h2>Sou a Child2</h2>
+        </div>
+    </div>
+</body>
+</html>
